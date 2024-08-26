@@ -192,7 +192,7 @@ var onPageFinished = function () {
                 typedElement.focus();
             }
         })
-        .then(_runHook(onShownHook));
+        .then(() => _runHook(onShownHook));
 };
 
 /* Add function 2 hook to function 1.
